@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url("image/master.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.171);
+    background-blend-mode: darken;
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+.container-header{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color:#0099999d;
+    color: white;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.navbar ul li{
+    padding: 20px;
+    padding-left: 35px;
+}
+.searchbar{
+    display:flex;
+   
+    align-items: center;
+    margin-right:35px;
+    
+    
+}
+.searchbar input[type=text]{
+    /* margin-right: 10px; */
+    height: 35px;
+    width: 220px;
+    text-align: center;
+    
+    border:none;
+    /* border-right:4px solid white; */
+    
+    background-color:transparent;
+    color:white;
+    outline: none;
+    
+}
+.src{
+    border-radius:30px;
+    border-bottom:4px solid white;
+}
+.searchbar input[type=text]:hover{
+
+    border:none;
+}
+.searchbar::placeholder{
+    justify-content:center;
+    color:white;
+}
+.fa-search{
+    color: white;
+    padding-top: 8px;
+    height: 30px;
+    width: 30px;
+}
+.searchbtn{
+    border: none;
+    background-color: transparent;
+    margin-right:10px;
+    border-radius:9px;
+}
+main{
+    height: 100vh;
+}
+.mid-section{
+    height: auto;
+    width: 100vw;
+    /* border: 2px solid white; */
+}
+.login-form{
+    float: right;
+    height: 10vh;
+    /* margin-right:50px; */
+    margin: 40px ;
+    width: 30vw;
+}
+.login-form form{
+    padding: 40px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    border-radius:10px
+
+}
+.login-form h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+
+}
+.login-form input{
+    height: 35px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.login-form input[type="text"]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size:16px;
+}
+.login-form input[type="password"]{
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size:16px;
+    /* border: 2px solid white; */
+    width: 95%;
+    padding-bottom: 1;
+    margin-bottom: 0;
+}
+/* .login-form label{
+    font-size: 20px;
+    letter-spacing:2px;
+} */
+.ip-btn{
+    width: 49%;
+    
+}
+/* .btns{
+    width: 100%;
+
+    justify-content: center;
+} */
+.input-eye{
+    border-bottom: 2px solid white;
+    border-radius: 6px;
+}
+
+
+
+.footer{
+    display:flex;
+    background-color:#009999;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:larger;
+}
